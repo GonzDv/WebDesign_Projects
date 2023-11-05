@@ -20,25 +20,22 @@
             </p>
         </div>
         <form id="survey-form" action="" >
-            <div class="form-items">
+            <div class="form-items">    <!-- Name !--> 
                 <label id="name-label" for="name"> Name </label>
                 <input id="name" type="text" class="inputs" placeholder="Enter your name" required autocomplete="on"/>
             </div>
-
-            <div class="form-items">
+            <div class="form-items">    <!-- Email !--> 
                 <label id="email-label" for="email"> Email </label>
                 <input id="email" type="email" class="inputs" pattern=".+@.com" size="30" placeholder="Enter your Email" required autocomplete="on"/>
             </div>
-
-            <div class="form-items">
+            <div class="form-items">    <!-- Age !--> 
                 <label id="number-label" for="number">
                     Age
                     <span>(optional)</span>
                 </label>
                 <input id="number" type="number" class="inputs" min="10" max="99" placeholder="Age" size="0" required />
             </div>
-
-            <div class="form-items">
+            <div class="form-items">    <!-- Rol !--> 
                 <p>Which option best describes your current role?</p>
                 <select name="role" id="dropdown" required
                 class="inputs">
@@ -48,8 +45,7 @@
                     <option value="other">Other</option>
                 </select>
             </div>
-
-            <div class="form-items">
+            <div class="form-items">    <!-- Recommend !--> 
                 <p>Which you recommend freeCodeCamp to a friend?</p>
                 <label>
                     <input type="radio" name="recommend" value="definitely" class="input-radio" checked>
@@ -64,8 +60,7 @@
                 </label>
 
             </div>
-
-            <div class="form-items">
+            <div class="form-items">    <!-- User Improve !--> 
                 <p>What would you like to see improved</p>
                 <section>
                     <label>
@@ -78,11 +73,11 @@
                     </label>
                 </section>
             </div>
-            <div class="form-items">
+            <div class="form-items">    <!-- Text Area Comments !--> 
                 <p>Any comments or suggestions</p>
                 <textarea name="comment" id="comments" class="inputs" cols="30" rows="10"></textarea>
             </div>
-            <div class="form-items">
+            <div class="form-items">    <!-- Bnt Submit !--> 
                 <button type="submit" id="submit" class="submit-button">Submit</button>
             </div>
         </form>
